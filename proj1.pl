@@ -14,30 +14,6 @@
 %     28 | __ | __ | __
 %       
 
-% Constraint 1:
-%     Each column and row solution contains no repeated digits.
-%     The digits within the Puzzle have to be from 1 - 9, 
-%     not including zero.
-%
-
-% Constraint 2:
-%     The same value must be placed in the diagonal,
-%     from top left (1, 1) to bottom right (n, n) of the Puzzle.
-%     First value in the Diagonal is 0 as it has no effect
-%     on our Puzzle and isn't part of the header or solution.
-        
-
-% Constraint 3:
-%     The digits in each row and column either,
-%     sum up to or give the product of the header
-
-%
-% Satisfying these three criteria solves the Maths Puzzle and the
-% computer prints out the solution. Each proper Maths Puzzle 
-% only contains only one answer. False is printed if it not a 
-% valid Maths Puzzle and no digits satisfy the constriants.
-
-
 % Libraries used:
 % constraint logic programming over finite domains helped transpose
 % and find distinct values
