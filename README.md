@@ -8,10 +8,13 @@ to such Puzzle and prints false when no solution can be reached.
 
 Example Puzzle:
 
-  0 | 14 | 10 | 35
- 14 | __ | __ | __
- 15 | __ | __ | __
- 28 | __ | __ | __
+   xx | 14 | 10 | 35
+ 
+   14 | __ | __ | __
+ 
+   15 | __ | __ | __
+ 
+   28 | __ | __ | __
 
 
 Constraint 1:
