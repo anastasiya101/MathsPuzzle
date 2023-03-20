@@ -1,8 +1,18 @@
 MathsPuzzle
+
 A Maths Puzzle is an N * N grid that has headers in the first Row 
 and first Column to which the corresponding Row or Column should 
 either sum up to or is the product of. This program finds a solution 
 to such Puzzle and prints false when no solution can be reached.
+
+
+Example Puzzle:
+
+  0 | 14 | 10 | 35
+ 14 | __ | __ | __
+ 15 | __ | __ | __
+ 28 | __ | __ | __
+
 
 Constraint 1:
 Each column and row solution contains no repeated digits.
